@@ -24,7 +24,6 @@ def load_and_clean_data(file_path):
 
     return df
 
-
 if __name__ == "__main__":
     data_path = "../data/energy.csv"   # IMPORTANT FIX
     cleaned_df = load_and_clean_data(data_path)
