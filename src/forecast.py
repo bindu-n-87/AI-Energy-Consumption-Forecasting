@@ -4,7 +4,6 @@ import joblib
 
 from feature_engineering import create_features
 
-
 df = pd.read_csv("../data/energy.csv")
 
 df['date'] = pd.to_datetime(df['date'])
